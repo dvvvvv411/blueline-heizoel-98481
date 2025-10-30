@@ -86,7 +86,7 @@ const HeroSection = () => {
             <div className="space-y-6">
               <div className="space-y-3">
                 <h1 className="text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 leading-[0.9] tracking-tight">
-                  <span className="text-primary font-black">Günstigster Heizöl Anbieter</span>
+                  <span className="text-[#ef1c23] font-black">Günstigster Heizöl-Anbieter</span>
                   <br />
                   <span className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-600">aus Köln für ganz Deutschland</span>
                 </h1>
