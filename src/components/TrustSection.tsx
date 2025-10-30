@@ -68,9 +68,9 @@ const TrustSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-white to-red-50/30 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(239,28,35,0.05),transparent)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(239,28,35,0.08),transparent)]"></div>
       <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-primary/5 to-transparent rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
