@@ -182,7 +182,7 @@ const PriceCalculator = () => {
         {/* Right Column - Price Breakdown */}
         <div className="flex flex-col h-full space-y-6">
           {/* Price Breakdown */}
-          <div className="flex-1 flex flex-col bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-xl p-6 space-y-4">
+          <div className="flex-1 flex flex-col bg-white/75 border border-red-200/50 rounded-xl p-6 space-y-4 shadow-sm">
             <h4 className="text-lg font-semibold text-gray-900 mb-4">Preisübersicht</h4>
             
             <div className="flex justify-between items-center">

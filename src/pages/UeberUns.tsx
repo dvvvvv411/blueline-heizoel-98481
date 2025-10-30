@@ -70,7 +70,7 @@ const UeberUns = () => {
             
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-600/10 rounded-3xl transform rotate-2"></div>
-              <div className="relative bg-red-50/45 backdrop-blur-md border border-red-200/40 rounded-3xl p-10 shadow-xl hover:bg-red-50/65 transition-all duration-300">
+              <div className="relative bg-white/85 backdrop-blur-md border border-red-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl hover:bg-white/93 transition-all duration-300">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Award className="w-10 h-10 text-primary" />
@@ -118,7 +118,7 @@ const UeberUns = () => {
           
           <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-rose-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Users className="w-8 h-8 text-red-600" />
@@ -134,7 +134,7 @@ const UeberUns = () => {
             </div>
 
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Award className="w-8 h-8 text-yellow-600" />
@@ -150,7 +150,7 @@ const UeberUns = () => {
             </div>
 
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Wrench className="w-8 h-8 text-green-600" />
@@ -166,7 +166,7 @@ const UeberUns = () => {
             </div>
 
             <div className="group">
-              <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+              <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-pink-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Heart className="w-8 h-8 text-red-600" />
@@ -197,7 +197,7 @@ const UeberUns = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-rose-50 rounded-3xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-red-50/45 backdrop-blur-md border border-red-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl hover:bg-red-50/65 transition-all duration-300">
+              <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-3xl p-10 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                 <div className="flex items-center mb-8">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-rose-100 rounded-2xl flex items-center justify-center mr-6">
                     <Wrench className="w-8 h-8 text-red-600" />
@@ -228,7 +228,7 @@ const UeberUns = () => {
 
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-green-50/40 backdrop-blur-md border border-green-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl hover:bg-green-50/60 transition-all duration-300">
+              <div className="relative bg-white/80 backdrop-blur-md border border-green-200/50 rounded-3xl p-10 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                 <div className="flex items-center mb-8">
                   <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mr-6">
                     <Users className="w-8 h-8 text-green-600" />
@@ -273,7 +273,7 @@ const UeberUns = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-white/70 rounded-3xl backdrop-blur-sm transform rotate-1"></div>
-          <div className="relative bg-red-50/45 border border-red-200/40 rounded-3xl p-10 shadow-xl backdrop-blur-md hover:bg-red-50/65 transition-all duration-300">
+          <div className="relative bg-white/85 border border-red-200/50 rounded-3xl p-10 shadow-lg backdrop-blur-md hover:shadow-xl hover:bg-white/93 transition-all duration-300">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <div className="text-4xl">🏢</div>
@@ -302,7 +302,7 @@ const UeberUns = () => {
 
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-white/70 rounded-3xl backdrop-blur-sm transform -rotate-1"></div>
-              <div className="relative bg-red-50/45 border border-red-200/40 rounded-3xl p-10 shadow-xl backdrop-blur-md hover:bg-red-50/65 transition-all duration-300">
+              <div className="relative bg-white/85 border border-red-200/50 rounded-3xl p-10 shadow-lg backdrop-blur-md hover:shadow-xl hover:bg-white/93 transition-all duration-300">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <div className="text-4xl">⚖️</div>

@@ -43,7 +43,7 @@ const Lieferservice = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto pt-8">
               <div className="group">
-            <div className="relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-6 shadow-lg hover:shadow-xl hover:bg-red-50/60 transition-all duration-300">
+            <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-6 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="relative flex flex-col items-center space-y-3">
                     <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -58,7 +58,7 @@ const Lieferservice = () => {
               </div>
 
               <div className="group">
-            <div className="relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-6 shadow-lg hover:shadow-xl hover:bg-red-50/60 transition-all duration-300">
+            <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-6 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="relative flex flex-col items-center space-y-3">
                     <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -73,7 +73,7 @@ const Lieferservice = () => {
               </div>
 
               <div className="group">
-                <div className="relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-6 shadow-lg hover:shadow-xl hover:bg-red-50/60 transition-all duration-300">
+                <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-6 shadow-md hover:shadow-xl hover:bg-white/90 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="relative flex flex-col items-center space-y-3">
                     <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -103,7 +103,7 @@ const Lieferservice = () => {
           
           <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Star className="w-8 h-8 text-yellow-600" />
@@ -119,7 +119,7 @@ const Lieferservice = () => {
             </div>
 
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Gauge className="w-8 h-8 text-green-600" />
@@ -135,7 +135,7 @@ const Lieferservice = () => {
             </div>
 
             <div className="group">
-            <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-rose-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Users className="w-8 h-8 text-red-600" />
@@ -151,7 +151,7 @@ const Lieferservice = () => {
             </div>
 
             <div className="group">
-              <div className="bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+              <div className="bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-violet-100 rounded-2xl flex items-center justify-center mx-auto">
                     <Shield className="w-8 h-8 text-purple-600" />
@@ -229,7 +229,7 @@ const Lieferservice = () => {
             
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-600/10 rounded-3xl transform rotate-2"></div>
-              <div className="relative bg-red-50/45 backdrop-blur-md border border-red-200/40 rounded-3xl p-10 shadow-xl hover:bg-red-50/65 transition-all duration-300">
+              <div className="relative bg-white/85 backdrop-blur-md border border-red-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl hover:bg-white/93 transition-all duration-300">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Truck className="w-10 h-10 text-primary" />
@@ -281,7 +281,7 @@ const Lieferservice = () => {
           
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="group">
-            <div className="relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="absolute top-6 right-6">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                 </div>
@@ -316,7 +316,7 @@ const Lieferservice = () => {
             </div>
 
             <div className="group">
-            <div className="relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-red-50/60 transition-all duration-300 h-full">
+            <div className="relative bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="absolute top-6 right-6">
                   <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
                 </div>
@@ -351,7 +351,7 @@ const Lieferservice = () => {
             </div>
 
             <div className="group">
-              <div className="relative bg-white/95 border border-red-200/30 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-300 h-full">
+              <div className="relative bg-white/80 border border-red-200/50 rounded-2xl p-8 shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 h-full">
                 <div className="absolute top-6 right-6">
                   <div className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></div>
                 </div>
