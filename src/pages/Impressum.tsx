@@ -6,10 +6,10 @@ const Impressum = () => {
   return (
     <div className="min-h-screen bg-gray-50">
         <SEO
-        title="Impressum | Blueline | Rechtliche Angaben"
-        description="Impressum der Blueline (BL Trade GmbH) - Alle rechtlichen Angaben, Kontaktdaten und Registereintrag. Amtsgericht Charlottenburg (Berlin) HRB 251767 B."
-        keywords="Impressum, Blueline, BL Trade GmbH, Berlin, HRB 251767 B, rechtliche Angaben"
-        canonicalUrl="https://bl-heizoel.de/impressum"
+        title="Impressum | Kölner Kraftstoff | Rechtliche Angaben"
+        description="Impressum der Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG) - Alle rechtlichen Angaben, Kontaktdaten und Registereintrag. Amtsgericht Köln HRA 27679."
+        keywords="Impressum, Kölner Kraftstoff, Köln, HRA 27679, rechtliche Angaben"
+        canonicalUrl="https://koelner-kraftstoff.de/impressum"
       />
       <Header />
       
@@ -22,9 +22,9 @@ const Impressum = () => {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
                 <div className="space-y-2">
-                  <p><strong>Blueline (BL Trade GmbH)</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
+                  <p><strong>Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG)</strong></p>
+                  <p>Dieselstr. 10</p>
+                  <p>50996 Köln</p>
                   <p>Deutschland</p>
                 </div>
               </section>
@@ -32,8 +32,8 @@ const Impressum = () => {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Kontakt</h2>
                 <div className="space-y-2">
-                  <p><strong>Telefon:</strong> 030 23258380</p>
-                  <p><strong>E-Mail:</strong> info@bl-heizoel.de</p>
+                  <p><strong>Telefon:</strong> 0221 16841640</p>
+                  <p><strong>E-Mail:</strong> info@koelner-kraftstoff.de</p>
                 </div>
               </section>
 
@@ -41,23 +41,23 @@ const Impressum = () => {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Registereintrag</h2>
                 <div className="space-y-2">
                   <p><strong>Eintragung im Handelsregister:</strong></p>
-                  <p>Registergericht: Amtsgericht Charlottenburg (Berlin)</p>
-                  <p>Registernummer: HRB 251767 B</p>
+                  <p>Registergericht: Amtsgericht Köln</p>
+                  <p>Registernummer: HRA 27679</p>
                 </div>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Umsatzsteuer-ID</h2>
                 <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
-                <p><strong>DE311826397</strong></p>
+                <p><strong>DE302487506</strong></p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
                 <div className="space-y-2">
-                  <p>Blueline (BL Trade GmbH)</p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
+                  <p>Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG)</p>
+                  <p>Dieselstr. 10</p>
+                  <p>50996 Köln</p>
                 </div>
               </section>
 

@@ -15,11 +15,11 @@ const Index = () => {
   return (
     <div className="min-h-screen">
         <SEO
-        title="Blueline | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
+        title="Kölner Kraftstoff | Premium Heizöl ab 70 Cent/L | Kostenlose Lieferung ab 2.000L"
         description="Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit. Jetzt Preis berechnen!"
-        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Berlin"
+        keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Köln"
         structuredData={structuredData}
-        canonicalUrl="https://bl-heizoel.de/"
+        canonicalUrl="https://koelner-kraftstoff.de/"
       />
       <Header />
       <HeroSection />

@@ -16,10 +16,10 @@ const Preise = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Heizöl Preise & Konditionen | Ab 70 Cent/L | Blueline"
+        title="Heizöl Preise & Konditionen | Ab 70 Cent/L | Kölner Kraftstoff"
         description="Transparente Heizöl-Preise ohne versteckte Kosten. Standard Heizöl ab 70 Cent/L, Premium ab 73 Cent/L. Preisgarantie bis zur Lieferung!"
-        keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Berlin"
-        canonicalUrl="https://bl-heizoel.de/preise"
+        keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Köln"
+        canonicalUrl="https://koelner-kraftstoff.de/preise"
       />
       <Header />
       

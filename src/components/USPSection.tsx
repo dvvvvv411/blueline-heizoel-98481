@@ -45,7 +45,7 @@ const USPSection = () => {
             Premium Heizöl Service
           </div>
           <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Warum <span className="gradient-text">Blueline</span>?
+            Warum <span className="gradient-text">Kölner Kraftstoff</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Wir sind Ihr digitaler Heizöl-Experte für ganz Deutschland. Entdecken Sie unsere überzeugenden Vorteile und Premium-Service.

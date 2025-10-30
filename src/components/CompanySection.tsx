@@ -35,8 +35,8 @@ const CompanySection = () => {
       title: "Unser Standort",
       content: (
         <>
-          Düsseldorfer Str. 10<br />
-          10719 Berlin<br />
+          Dieselstr. 10<br />
+          50996 Köln<br />
           Deutschland
         </>
       ),
@@ -47,10 +47,10 @@ const CompanySection = () => {
       title: "E-Mail Kontakt",
       content: (
         <a 
-          href="mailto:info@bl-heizoel.de" 
+          href="mailto:info@koelner-kraftstoff.de" 
           className="text-primary hover:text-primary/80 transition-colors font-medium hover:underline"
         >
-          info@bl-heizoel.de
+          info@koelner-kraftstoff.de
         </a>
       ),
       color: "from-emerald-500 to-green-600"
@@ -82,13 +82,13 @@ const CompanySection = () => {
             </div>
             
             <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8">
-              Über <span className="gradient-text">Blueline</span>
+              Über <span className="gradient-text">Kölner Kraftstoff</span>
             </h2>
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">
               <p>
                 Wir sind Ihr vertrauensvoller Partner für hochwertige und günstige Heizöl-Lieferungen in ganz Deutschland. 
-                Als innovatives Unternehmen aus Berlin haben wir uns auf die digitale Belieferung von Privat- und Geschäftskunden spezialisiert.
+                Als innovatives Unternehmen aus Köln haben wir uns auf die digitale Belieferung von Privat- und Geschäftskunden spezialisiert.
               </p>
               
               <p>
@@ -162,13 +162,13 @@ const CompanySection = () => {
               <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Rechtliche Angaben</h4>
               <div className="space-y-3 text-center">
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="font-semibold text-gray-900">Blueline (BL Trade GmbH)</p>
+                  <p className="font-semibold text-gray-900">Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG)</p>
                 </div>
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="text-gray-700">Amtsgericht Charlottenburg (Berlin) HRB 251767 B</p>
+                  <p className="text-gray-700">Amtsgericht Köln HRA 27679</p>
                 </div>
                 <div className="p-4 bg-white/50 rounded-2xl">
-                  <p className="text-gray-700">USt-ID: DE311826397</p>
+                  <p className="text-gray-700">USt-ID: DE302487506</p>
                 </div>
               </div>
             </div>

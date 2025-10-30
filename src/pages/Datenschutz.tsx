@@ -27,10 +27,10 @@ const Datenschutz = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-4">Verantwortliche Stelle</h3>
                 <div className="space-y-2">
                   <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
-                  <p><strong>BL Trade GmbH</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
-                  <p>E-Mail: info@bl-heizoel.de</p>
+                  <p><strong>Kölner Kraftstoff GmbH & Co. KG</strong></p>
+                  <p>Dieselstr. 10</p>
+                  <p>50996 Köln</p>
+                  <p>E-Mail: info@koelner-kraftstoff.de</p>
                 </div>
               </section>
 

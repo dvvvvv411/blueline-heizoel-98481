@@ -2,25 +2,25 @@
 export const companyStructuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Blueline",
-  "alternateName": "BL Trade GmbH",
-  "url": "https://bl-heizoel.de",
-  "logo": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
+  "name": "Kölner Kraftstoff",
+  "alternateName": "Kölner Kraftstoff GmbH & Co. KG",
+  "url": "https://koelner-kraftstoff.de",
+  "logo": "/lovable-uploads/koelner-kraftstoff-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+49-30-23258380",
+    "telephone": "+49-221-16841640",
     "contactType": "customer service",
-    "email": "info@bl-heizoel.de",
+    "email": "info@koelner-kraftstoff.de",
     "availableLanguage": "German"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Düsseldorfer Str. 10",
-    "addressLocality": "Berlin",
-    "postalCode": "10719",
+    "streetAddress": "Dieselstr. 10",
+    "addressLocality": "Köln",
+    "postalCode": "50996",
     "addressCountry": "DE"
   },
-  "foundingDate": "2023",
+  "foundingDate": "2010",
   "numberOfEmployees": "10-50",
   "description": "Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit.",
   "areaServed": {
@@ -43,22 +43,22 @@ export const companyStructuredData = {
 export const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Blueline",
-  "image": "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
-  "@id": "https://bl-heizoel.de",
-  "url": "https://bl-heizoel.de",
-  "telephone": "+49-30-23258380",
+  "name": "Kölner Kraftstoff",
+  "image": "/lovable-uploads/koelner-kraftstoff-logo.png",
+  "@id": "https://koelner-kraftstoff.de",
+  "url": "https://koelner-kraftstoff.de",
+  "telephone": "+49-221-16841640",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Düsseldorfer Str. 10",
-    "addressLocality": "Berlin",
-    "postalCode": "10719",
+    "streetAddress": "Dieselstr. 10",
+    "addressLocality": "Köln",
+    "postalCode": "50996",
     "addressCountry": "DE"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 52.499,
-    "longitude": 13.330
+    "latitude": 50.889,
+    "longitude": 6.943
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",

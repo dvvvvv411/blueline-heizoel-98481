@@ -10,10 +10,10 @@ const UeberUns = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Über uns & Service | Blueline | Premium Heizöl-Händler"
-        description="Blueline – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Berlin mit über 100.000 zufriedenen Kunden deutschlandweit."
-        keywords="Blueline, Berlin, Heizöl Unternehmen, Premium Heizöl, Heizöl Berlin"
-        canonicalUrl="https://bl-heizoel.de/ueber-uns"
+        title="Über uns & Service | Kölner Kraftstoff | Premium Heizöl-Händler"
+        description="Kölner Kraftstoff – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Köln mit über 100.000 zufriedenen Kunden deutschlandweit."
+        keywords="Kölner Kraftstoff, Köln, Heizöl Unternehmen, Premium Heizöl, Heizöl Köln"
+        canonicalUrl="https://koelner-kraftstoff.de/ueber-uns"
       />
       <Header />
       
@@ -31,7 +31,7 @@ const UeberUns = () => {
             </h1>
             
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ihr vertrauensvoller Partner für Heizöl in Berlin und ganz Deutschland. 
+              Ihr vertrauensvoller Partner für Heizöl in Köln und ganz Deutschland. 
               Digitaler Vorreiter mit Tradition und modernster Technik.
             </p>
           </div>
@@ -42,9 +42,9 @@ const UeberUns = () => {
       <PageSection className="py-24" background="warm">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Blueline</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Kölner Kraftstoff</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Berlin
+              Ihre vertrauensvolle Adresse für Premium-Heizöl aus Köln
             </p>
           </div>
           
@@ -54,7 +54,7 @@ const UeberUns = () => {
                 <h3 className="text-2xl font-bold mb-6 text-primary">Unsere Geschichte</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Gegründet 2023 in Berlin, haben wir uns als zuverlässiger Heizöllieferant 
+                    Gegründet 2010 in Köln, haben wir uns als zuverlässiger Heizöllieferant 
                     in der Region etabliert. Was als lokales Unternehmen begann, ist heute 
                     ein deutschlandweit agierendes Premium-Unternehmen mit modernsten Tankfahrzeugen 
                     und volldigitalisierten Bestell- und Lieferprozessen.
@@ -81,11 +81,11 @@ const UeberUns = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Gegründet:</span>
-                    <span className="font-bold text-primary text-lg">2023</span>
+                    <span className="font-bold text-primary text-lg">2010</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-xl border border-primary/20">
                     <span className="text-gray-600 font-medium">Standort:</span>
-                    <span className="font-bold text-gray-900">Berlin</span>
+                    <span className="font-bold text-gray-900">Köln</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl">
                     <span className="text-gray-600 font-medium">Liefergebiet:</span>
@@ -266,7 +266,7 @@ const UeberUns = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Kontakt & Standort</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ihre Ansprechpartner in Berlin - wir sind für Sie da
+              Ihre Ansprechpartner in Köln - wir sind für Sie da
             </p>
           </div>
           
@@ -283,17 +283,17 @@ const UeberUns = () => {
                 
                 <div className="space-y-6 text-center">
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
-                    <p className="font-bold text-lg text-gray-900 mb-2">Blueline (BL Trade GmbH)</p>
+                    <p className="font-bold text-lg text-gray-900 mb-2">Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG)</p>
                     <p className="text-gray-700">
-                      Düsseldorfer Str. 10<br/>
-                      10719 Berlin
+                      Dieselstr. 10<br/>
+                      50996 Köln
                     </p>
                   </div>
                   
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700">
-                      <strong className="text-primary">E-Mail:</strong> info@bl-heizoel.de<br/>
-                      <strong className="text-primary">Telefon:</strong> 030 23258380
+                      <strong className="text-primary">E-Mail:</strong> info@koelner-kraftstoff.de<br/>
+                      <strong className="text-primary">Telefon:</strong> 0221 16841640
                     </p>
                   </div>
                 </div>
@@ -312,16 +312,16 @@ const UeberUns = () => {
                 
                 <div className="space-y-4">
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Amtsgericht:</strong> Charlottenburg (Berlin) HRB 251767 B</p>
+                    <p className="text-gray-700"><strong className="text-primary">Amtsgericht:</strong> Köln HRA 27679</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE311826397</p>
+                    <p className="text-gray-700"><strong className="text-primary">USt-ID:</strong> DE302487506</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Geschäftsführer:</strong> Dzhamil Bulgakov</p>
+                    <p className="text-gray-700"><strong className="text-primary">Geschäftsführer:</strong> David Sommerhäuser</p>
                   </div>
                   <div className="p-3 bg-white/60 rounded-xl border border-white/40">
-                    <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 2023</p>
+                    <p className="text-gray-700"><strong className="text-primary">Gründung:</strong> 2010</p>
                   </div>
                   
                   <div className="mt-6 p-4 bg-gray-50/80 rounded-xl border border-gray-200/50">

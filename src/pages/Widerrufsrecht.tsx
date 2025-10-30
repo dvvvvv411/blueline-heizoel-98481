@@ -23,10 +23,10 @@ const Widerrufsrecht = () => {
                 <h3 className="text-lg font-semibold mb-2 mt-6">Ausübung des Widerrufsrechts</h3>
                 <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>
                 <div className="ml-4 mt-2 space-y-1">
-                  <p><strong>BL Trade GmbH</strong></p>
-                  <p>Düsseldorfer Str. 10</p>
-                  <p>10719 Berlin</p>
-                  <p>E-Mail: info@bl-heizoel.de</p>
+                  <p><strong>Kölner Kraftstoff GmbH & Co. KG</strong></p>
+                  <p>Dieselstr. 10</p>
+                  <p>50996 Köln</p>
+                  <p>E-Mail: info@koelner-kraftstoff.de</p>
                 </div>
                 <p className="mt-2">mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
               </section>
@@ -52,8 +52,8 @@ const Widerrufsrecht = () => {
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
                   <p className="font-semibold mb-4">Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück:</p>
                   <div className="space-y-2 text-sm">
-                    <p>An: BL Trade GmbH, Düsseldorfer Str. 10, 10719 Berlin</p>
-                    <p>E-Mail: info@bl-heizoel.de</p>
+                    <p>An: Kölner Kraftstoff GmbH & Co. KG, Dieselstr. 10, 50996 Köln</p>
+                    <p>E-Mail: info@koelner-kraftstoff.de</p>
                     <br />
                     <p>Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden Waren (*):</p>
                     <p>_________________________________</p>

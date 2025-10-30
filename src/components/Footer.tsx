@@ -38,7 +38,7 @@ const Footer = () => {
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center mt-1 group-hover:bg-white/30 transition-colors duration-300">
                     <MapPin className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-gray-200 text-sm">Düsseldorfer Str. 10, 10719 Berlin</span>
+                  <span className="text-gray-200 text-sm">Dieselstr. 10, 50996 Köln</span>
                 </div>
                 
                 <div className="group flex items-center space-x-3">
@@ -46,10 +46,10 @@ const Footer = () => {
                     <Phone className="w-4 h-4 text-white" />
                   </div>
                   <a 
-                    href="tel:+493023258380" 
+                    href="tel:+4922116841640" 
                     className="text-gray-200 text-sm hover:text-white transition-colors duration-300"
                   >
-                    030 23258380
+                    0221 16841640
                   </a>
                 </div>
                 
@@ -58,10 +58,10 @@ const Footer = () => {
                     <Mail className="w-4 h-4 text-white" />
                   </div>
                   <a 
-                    href="mailto:info@bl-heizoel.de" 
+                    href="mailto:info@koelner-kraftstoff.de" 
                     className="text-gray-200 text-sm hover:text-white transition-colors duration-300"
                   >
-                    info@bl-heizoel.de
+                    info@koelner-kraftstoff.de
                   </a>
                 </div>
               </div>
@@ -166,8 +166,8 @@ const Footer = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
               <div className="flex items-center gap-6 text-white/90 text-sm whitespace-nowrap">
-                <span>© 2025 Blueline. Alle Rechte vorbehalten.</span>
-                <span>Amtsgericht Charlottenburg (Berlin) HRB 251767 B | USt-ID: DE311826397</span>
+                <span>© 2025 Kölner Kraftstoff. Alle Rechte vorbehalten.</span>
+                <span>Amtsgericht Köln HRA 27679 | USt-ID: DE302487506</span>
               </div>
               <div className="text-sm text-white/90 bg-white/15 px-4 py-2 rounded-full border border-white/30 whitespace-nowrap">
                 Made with ❤️ in Germany

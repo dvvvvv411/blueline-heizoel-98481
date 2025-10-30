@@ -1,44 +1,44 @@
 export const companyInfo = {
   // Brand Information
-  brandName: "Blueline",
-  legalName: "BL Trade GmbH",
+  brandName: "Kölner Kraftstoff",
+  legalName: "Kölner Kraftstoff GmbH & Co. KG",
   
   // Address
-  street: "Düsseldorfer Str. 10",
-  postalCode: "10719",
-  city: "Berlin",
+  street: "Dieselstr. 10",
+  postalCode: "50996",
+  city: "Köln",
   country: "DE",
   
   // Contact Information
-  email: "info@bl-heizoel.de",
-  phoneDisplay: "030 23258380",
-  phoneIntl: "+49 30 23258380",
-  phoneTel: "+493023258380",
+  email: "info@koelner-kraftstoff.de",
+  phoneDisplay: "0221 16841640",
+  phoneIntl: "+49 221 16841640",
+  phoneTel: "+4922116841640",
   
   // Legal Information
-  court: "Amtsgericht Charlottenburg (Berlin)",
-  hrb: "HRB 251767 B",
-  vatId: "DE311826397",
-  ceo: "Dzhamil Bulgakov",
+  court: "Amtsgericht Köln",
+  hrb: "HRA 27679",
+  vatId: "DE302487506",
+  ceo: "David Sommerhäuser",
   
   // Business Information
-  foundingYear: "2023",
-  yearsOfExperience: "2+",
+  foundingYear: "2010",
+  yearsOfExperience: "15+",
   
   // Assets
-  logo: "/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png",
+  logo: "/lovable-uploads/koelner-kraftstoff-logo.png",
   
-  // Geographic Coordinates (Berlin, near Düsseldorfer Str. 10)
+  // Geographic Coordinates (Köln, near Dieselstr. 10)
   geo: {
-    lat: 52.499,
-    lng: 13.330
+    lat: 50.889,
+    lng: 6.943
   },
   
   // Website
-  website: "https://bl-heizoel.de",
+  website: "https://koelner-kraftstoff.de",
   
   // Full address string
-  fullAddress: "Düsseldorfer Str. 10, 10719 Berlin",
+  fullAddress: "Dieselstr. 10, 50996 Köln",
   
   // Company description
   shortDescription: "Ihr vertrauensvoller Partner für hochwertiges Heizöl. Deutschlandweite Premium-Lieferung ab 70 Cent pro Liter.",
