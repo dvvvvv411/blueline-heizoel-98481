@@ -124,7 +124,7 @@ const PriceCalculator = () => {
             {/* Quick Select Buttons */}
             <div className="space-y-2">
               <p className="text-sm text-gray-600">Beliebte Mengen:</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex gap-2">
                 {quickSelectAmounts.map((amount) => (
                   <button
                     key={amount}
