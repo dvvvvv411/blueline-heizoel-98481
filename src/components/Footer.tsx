@@ -164,12 +164,12 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 bg-[#c01418]/50 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-8">
-            <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
-              <div className="flex items-center gap-6 text-white/90 text-sm whitespace-nowrap">
-                <span>© 2025 Kölner Kraftstoff. Alle Rechte vorbehalten.</span>
-                <span>Amtsgericht Köln HRA 27679 | USt-ID: DE302487506</span>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-6">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 text-white/90 text-sm">
+                <span className="text-center sm:text-left">© 2025 Kölner Kraftstoff. Alle Rechte vorbehalten.</span>
+                <span className="text-center sm:text-left">Amtsgericht Köln HRA 27679 | USt-ID: DE302487506</span>
               </div>
-              <div className="text-sm text-white/90 bg-white/15 px-4 py-2 rounded-full border border-white/30 whitespace-nowrap">
+              <div className="text-sm text-white/90 bg-white/15 px-4 py-2 rounded-full border border-white/30 text-center md:whitespace-nowrap mx-auto md:mx-0">
                 Made with ❤️ in Germany
               </div>
             </div>
