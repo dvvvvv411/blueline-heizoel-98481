@@ -190,14 +190,17 @@ const PriceCalculator = () => {
               <span className="font-semibold whitespace-nowrap">{basePrice.toFixed(2)} €</span>
             </div>
             
-            <div className="flex justify-between items-center">
-              <div className="flex items-center space-x-2">
-                <Truck className="w-4 h-4 text-gray-400" />
-                <span className="text-gray-600">Lieferung</span>
+            <div className="space-y-1">
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-2">
+                  <Truck className="w-4 h-4 text-gray-400" />
+                  <span className="text-gray-600">Lieferung</span>
+                </div>
+                <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-green-600' : ''}`}>
+                  {deliveryFee === 0 ? 'KOSTENLOS' : `${deliveryFee.toFixed(2)} €`}
+                </span>
               </div>
-              <span className={`font-semibold whitespace-nowrap ${deliveryFee === 0 ? 'text-green-600' : ''}`}>
-                {deliveryFee === 0 ? 'KOSTENLOS' : `${deliveryFee.toFixed(2)} €`}
-              </span>
+              <p className="text-xs text-gray-500 pl-6">Lieferzeit: 4-7 Werktage</p>
             </div>
             
             {deliveryFee === 0 && (
