@@ -87,19 +87,18 @@ const CompanySection = () => {
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed mb-12">
               <p>
-                Wir sind Ihr vertrauensvoller Partner für hochwertige und günstige Heizöl-Lieferungen in ganz Deutschland. 
-                Als innovatives Unternehmen aus Köln haben wir uns auf die digitale Belieferung von Privat- und Geschäftskunden spezialisiert.
+                Kölner Kraftstoff – Ihr verlässlicher Partner aus Köln für Premium-Heizöl in ganz Deutschland. 
+                Von unserem Standort in Köln aus beliefern wir Privat- und Geschäftskunden bundesweit mit erstklassigem Heizöl zu unschlagbaren Konditionen.
               </p>
               
               <p>
-                Durch unsere optimierten Beschaffungswege und die direkte Zusammenarbeit mit führenden Raffinerien können wir Ihnen 
-                <span className="font-semibold text-primary"> Premium Heizöl ab 70 Cent pro Liter</span> anbieten - 
-                und das bei kompromisslos hoher Qualität.
+                Durch direkte Raffineriekooperationen und optimierte Logistik bieten wir Ihnen 
+                <span className="font-semibold text-primary"> Premium Heizöl ab 70 Cent pro Liter</span> – von Köln nach ganz Deutschland geliefert.
               </p>
               
               <p>
-                Unser Erfolgsrezept: Transparente Preise, zuverlässiger Premium-Service und die kostenlose Lieferung ab 2.000 Litern deutschlandweit. 
-                <span className="font-semibold text-gray-900"> Über 100.000 zufriedene Kunden</span> bestätigen unsere Qualität.
+                Unser Versprechen: Transparente Preise, verlässlicher Premium-Service und kostenlose Lieferung ab 2.000 Litern deutschlandweit. 
+                <span className="font-semibold text-gray-900">Über 100.000 zufriedene Kunden in ganz Deutschland</span> vertrauen auf Kölner Kraftstoff.
               </p>
             </div>
 

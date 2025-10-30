@@ -13,7 +13,7 @@ const USPSection = () => {
     {
       icon: Truck,
       title: "Kostenlose Lieferung ab 2.000L",
-      description: "Deutschlandweite kostenfreie Premium-Anlieferung bei größeren Bestellungen. Zuverlässig und pünktlich zu Ihrem Wunschtermin.",
+      description: "Von Köln aus liefern wir deutschlandweit kostenfrei ab 2.000L. Zuverlässige Premium-Anlieferung zu Ihrem Wunschtermin – egal wo in Deutschland Sie sind.",
       highlight: "Deutschlandweit",
       accent: "from-red-500 to-rose-600"
     },
@@ -48,7 +48,7 @@ const USPSection = () => {
             Warum <span className="gradient-text">Kölner Kraftstoff</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Wir sind Ihr digitaler Heizöl-Experte für ganz Deutschland. Entdecken Sie unsere überzeugenden Vorteile und Premium-Service.
+            Kölner Kraftstoff – Premium Heizöl aus Köln für ganz Deutschland. Entdecken Sie unsere überzeugenden Vorteile und verlässlichen Service.
           </p>
         </div>
 

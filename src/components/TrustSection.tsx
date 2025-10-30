@@ -83,8 +83,8 @@ const TrustSection = () => {
             Was unsere <span className="gradient-text">Kunden sagen</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Über 100.000 zufriedene Kunden vertrauen bereits auf unseren Premium-Service. 
-            Lesen Sie selbst, was sie über Kölner Kraftstoff sagen.
+            Kölner Kraftstoff beliefert über 100.000 zufriedene Kunden in ganz Deutschland. 
+            Aus Köln heraus liefern wir Premium-Heizöl bundesweit – lesen Sie, was unsere Kunden sagen.
           </p>
         </div>
 
