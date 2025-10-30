@@ -62,8 +62,8 @@ const Header = () => {
           <div className="flex items-center lg:flex-none flex-1 lg:flex-initial justify-center lg:justify-start">
             <Link to="/" onClick={handleNavClick} className="group">
               <img 
-                src="/lovable-uploads/5f37edc5-73d7-450c-9343-d983bbd4bac4.png" 
-                alt="Blueline" 
+                src="/lovable-uploads/koelner-kraftstoff-logo.png" 
+                alt="Kölner Kraftstoff" 
                 className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
