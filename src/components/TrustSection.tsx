@@ -95,7 +95,7 @@ const TrustSection = () => {
             return (
               <div 
                 key={index}
-                className="group bg-white border border-gray-200/50 rounded-2xl p-6 text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-500 animate-fade-in"
+                className="group bg-white/95 border border-red-200/30 rounded-2xl p-6 text-center hover:shadow-lg hover:-translate-y-1 hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-500 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className={`w-12 h-12 bg-gradient-to-br ${indicator.color} rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
@@ -114,7 +114,7 @@ const TrustSection = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="group bg-white border border-gray-200/50 rounded-3xl p-8 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-2 transition-all duration-700 animate-fade-in"
+              className="group bg-white/95 border border-red-200/30 rounded-3xl p-8 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-2 hover:bg-gradient-to-br hover:from-red-50/40 hover:to-white/95 transition-all duration-700 animate-fade-in"
               style={{ animationDelay: `${0.4 + index * 0.15}s` }}
             >
               {/* Quote Background */}
@@ -154,7 +154,7 @@ const TrustSection = () => {
         </div>
 
         {/* Security & Certifications */}
-        <div className="bg-gradient-to-r from-gray-50/50 to-white/50 rounded-3xl border border-gray-200/50 p-8 md:p-12 text-center">
+        <div className="bg-gradient-to-r from-red-50/30 to-white/50 rounded-3xl border border-red-200/30 p-8 md:p-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Sicherheit & Qualitätszertifikate
           </h3>
@@ -166,7 +166,7 @@ const TrustSection = () => {
             {securityBadges.map((badge, index) => (
               <div 
                 key={index}
-                className="group p-4 rounded-2xl border border-gray-200/50 bg-white/50 hover:bg-white hover:shadow-md transition-all duration-300 animate-fade-in"
+                className="group p-4 rounded-2xl border border-red-200/30 bg-white/95 hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white hover:shadow-md transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${0.8 + index * 0.1}s` }}
               >
                 <div className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors duration-300">

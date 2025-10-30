@@ -59,7 +59,7 @@ const USPSection = () => {
             return (
               <div 
                 key={index}
-                className="group relative bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-3xl p-8 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-700 hover:-translate-y-2 animate-fade-in"
+                className="group relative bg-white/95 backdrop-blur-sm border border-red-200/30 rounded-3xl p-8 hover:shadow-2xl hover:shadow-primary/10 hover:bg-gradient-to-br hover:from-red-50/40 hover:to-white/95 transition-all duration-700 hover:-translate-y-2 animate-fade-in"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 {/* Background Gradient */}
@@ -96,7 +96,7 @@ const USPSection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border border-gray-200/50 p-8 md:p-12">
+        <div className="bg-white/95 backdrop-blur-sm rounded-3xl border border-red-200/30 p-8 md:p-12">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Vertrauen durch Zahlen</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
