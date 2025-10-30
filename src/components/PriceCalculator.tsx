@@ -209,6 +209,7 @@ const PriceCalculator = () => {
             <div className="border-t pt-4">
               <p className="text-xl font-bold text-gray-900">Gesamtpreis</p>
               <p className="text-4xl font-extrabold text-primary whitespace-nowrap mt-1">{totalPrice.toFixed(2)} €</p>
+              <p className="text-sm text-gray-500 mt-1">(inkl. MwSt.)</p>
             </div>
           </div>
 
