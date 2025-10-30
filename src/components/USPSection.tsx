@@ -59,7 +59,7 @@ const USPSection = () => {
             return (
               <div 
                 key={index}
-                className="group relative bg-white/95 backdrop-blur-sm border border-red-200/30 rounded-3xl p-8 hover:shadow-2xl hover:shadow-primary/10 hover:bg-gradient-to-br hover:from-red-50/40 hover:to-white/95 transition-all duration-700 hover:-translate-y-2 animate-fade-in"
+                className="group relative bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-3xl p-8 hover:shadow-2xl hover:shadow-primary/10 hover:bg-red-50/60 hover:backdrop-blur-lg transition-all duration-700 hover:-translate-y-2 animate-fade-in"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 {/* Background Gradient */}
@@ -96,7 +96,7 @@ const USPSection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-white/95 backdrop-blur-sm rounded-3xl border border-red-200/30 p-8 md:p-12">
+        <div className="bg-red-50/50 backdrop-blur-md rounded-3xl border border-red-200/40 p-8 md:p-12">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Vertrauen durch Zahlen</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -109,7 +109,7 @@ const USPSection = () => {
               const IconComponent = stat.icon;
               return (
                 <div key={index} className="text-center group animate-fade-in" style={{ animationDelay: `${0.6 + index * 0.1}s` }}>
-                  <div className="w-12 h-12 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-gray-200 transition-colors duration-300">
+                  <div className="w-12 h-12 bg-red-50/60 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-red-50/80 transition-colors duration-300">
                     <IconComponent className={`w-6 h-6 ${stat.color}`} />
                   </div>
                   <div className="text-4xl font-bold text-gray-900 mb-2 group-hover:scale-110 transition-transform duration-300">

@@ -110,7 +110,7 @@ const CompanySection = () => {
                 return (
                   <div 
                     key={index}
-                    className="group bg-white/95 border border-red-200/30 rounded-2xl p-6 hover:shadow-lg hover:-translate-y-1 hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-500 animate-fade-in"
+                    className="group bg-red-50/40 backdrop-blur-md border border-red-200/40 rounded-2xl p-6 hover:shadow-lg hover:-translate-y-1 hover:bg-red-50/60 transition-all duration-500 animate-fade-in"
                     style={{ animationDelay: `${0.2 + index * 0.1}s` }}
                   >
                     <div className={`w-12 h-12 bg-gradient-to-br ${feature.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
@@ -127,7 +127,7 @@ const CompanySection = () => {
           {/* Contact & Legal Section */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
             {/* Contact Card */}
-            <div className="bg-white/90 backdrop-blur-sm border border-red-200/40 rounded-3xl p-8 mb-8 hover:shadow-xl hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-500">
+            <div className="bg-red-50/45 backdrop-blur-md border border-red-200/40 rounded-3xl p-8 mb-8 hover:shadow-xl hover:bg-red-50/65 transition-all duration-500">
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-900 mb-3">
                   Kontakt & Standort
