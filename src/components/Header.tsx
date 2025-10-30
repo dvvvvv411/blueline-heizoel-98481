@@ -64,7 +64,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/koelner-kraftstoff-logo.png" 
                 alt="Kölner Kraftstoff" 
-                className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+                className="h-24 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
           </div>
