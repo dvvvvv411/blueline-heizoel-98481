@@ -165,11 +165,11 @@ const Footer = () => {
         <div className="border-t border-white/20 bg-[#c01418]/50 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-between gap-6 flex-nowrap overflow-x-auto">
-              <div className="flex items-center gap-6 text-gray-400 text-sm whitespace-nowrap">
+              <div className="flex items-center gap-6 text-white/90 text-sm whitespace-nowrap">
                 <span>© 2025 Blueline. Alle Rechte vorbehalten.</span>
                 <span>Amtsgericht Charlottenburg (Berlin) HRB 251767 B | USt-ID: DE311826397</span>
               </div>
-              <div className="text-sm text-gray-400 bg-white/15 px-4 py-2 rounded-full border border-white/30 whitespace-nowrap">
+              <div className="text-sm text-white/90 bg-white/15 px-4 py-2 rounded-full border border-white/30 whitespace-nowrap">
                 Made with ❤️ in Germany
               </div>
             </div>
