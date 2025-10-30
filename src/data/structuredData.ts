@@ -8,7 +8,7 @@ export const companyStructuredData = {
   "logo": "/lovable-uploads/koelner-kraftstoff-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+49-221-16841640",
+    "telephone": "+49-221-29291090",
     "contactType": "customer service",
     "email": "info@koelner-kraftstoff.de",
     "availableLanguage": "German"
@@ -47,7 +47,7 @@ export const localBusinessStructuredData = {
   "image": "/lovable-uploads/koelner-kraftstoff-logo.png",
   "@id": "https://koelner-kraftstoff.de",
   "url": "https://koelner-kraftstoff.de",
-  "telephone": "+49-221-16841640",
+  "telephone": "+49-221-29291090",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Dieselstr. 10",

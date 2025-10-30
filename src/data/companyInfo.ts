@@ -11,9 +11,9 @@ export const companyInfo = {
   
   // Contact Information
   email: "info@koelner-kraftstoff.de",
-  phoneDisplay: "0221 16841640",
-  phoneIntl: "+49 221 16841640",
-  phoneTel: "+4922116841640",
+  phoneDisplay: "0221 29291090",
+  phoneIntl: "+49 221 29291090",
+  phoneTel: "+4922129291090",
   
   // Legal Information
   court: "Amtsgericht Köln",
