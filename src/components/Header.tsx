@@ -57,14 +57,14 @@ const Header = () => {
         : 'bg-white/90 backdrop-blur-md border-b border-white/20'
     }`}>
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex items-center lg:flex-none flex-1 lg:flex-initial justify-center lg:justify-start">
             <Link to="/" onClick={handleNavClick} className="group">
               <img 
                 src="/lovable-uploads/koelner-kraftstoff-logo.png" 
                 alt="Kölner Kraftstoff" 
-                className="h-24 w-auto transition-transform duration-300 group-hover:scale-105"
+                className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </Link>
           </div>
