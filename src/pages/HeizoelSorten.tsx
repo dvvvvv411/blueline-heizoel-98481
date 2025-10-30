@@ -50,7 +50,7 @@ const HeizoelSorten = () => {
             {/* Standard Heizöl EL */}
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-600/5 rounded-2xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-white border border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="relative bg-white/95 border border-red-200/30 rounded-2xl p-8 shadow-lg hover:shadow-xl hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-300">
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex items-center space-x-4">
                     <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -91,7 +91,7 @@ const HeizoelSorten = () => {
             {/* Premium Heizöl Plus */}
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-600/10 rounded-2xl transform -rotate-1 group-hover:-rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-white border-2 border-primary/20 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="relative bg-white/95 border-2 border-primary/30 rounded-2xl p-8 shadow-lg hover:shadow-xl hover:bg-gradient-to-br hover:from-red-50/40 hover:to-white/95 transition-all duration-300">
                 <div className="absolute top-4 right-4">
                   <div className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">PREMIUM</div>
                 </div>
@@ -148,7 +148,7 @@ const HeizoelSorten = () => {
           
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="group">
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 h-full">
+            <div className="bg-white/95 rounded-2xl p-8 shadow-sm border border-red-200/30 hover:shadow-lg hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/5 group-hover:to-primary/10 transition-all duration-300"></div>
@@ -165,7 +165,7 @@ const HeizoelSorten = () => {
             </div>
             
             <div className="group">
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 h-full">
+            <div className="bg-white/95 rounded-2xl p-8 shadow-sm border border-red-200/30 hover:shadow-lg hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/5 group-hover:to-primary/10 transition-all duration-300"></div>
@@ -182,7 +182,7 @@ const HeizoelSorten = () => {
             </div>
             
             <div className="group">
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 h-full">
+              <div className="bg-white/95 rounded-2xl p-8 shadow-sm border border-red-200/30 hover:shadow-lg hover:bg-gradient-to-br hover:from-red-50/30 hover:to-white/95 transition-all duration-300 h-full">
                 <div className="relative mb-6">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-transparent to-primary/5 group-hover:to-primary/10 transition-all duration-300"></div>
@@ -216,7 +216,7 @@ const HeizoelSorten = () => {
             {/* Empfehlungen */}
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl transform rotate-1"></div>
-              <div className="relative bg-white border border-green-200/50 rounded-2xl p-8 shadow-lg">
+              <div className="relative bg-white/95 border border-green-200/50 rounded-2xl p-8 shadow-lg hover:bg-gradient-to-br hover:from-green-50/20 hover:to-white/95 transition-all duration-300">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
                     <span className="text-2xl">✓</span>
@@ -243,7 +243,7 @@ const HeizoelSorten = () => {
             {/* Vermeiden */}
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl transform -rotate-1"></div>
-              <div className="relative bg-white border border-amber-200/50 rounded-2xl p-8 shadow-lg">
+              <div className="relative bg-white/95 border border-amber-200/50 rounded-2xl p-8 shadow-lg hover:bg-gradient-to-br hover:from-amber-50/20 hover:to-white/95 transition-all duration-300">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mr-4">
                     <span className="text-2xl">⚠️</span>
