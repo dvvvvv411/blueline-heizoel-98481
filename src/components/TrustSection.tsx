@@ -89,21 +89,21 @@ const TrustSection = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="grid md:grid-cols-4 gap-6 mb-20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-20">
           {trustIndicators.map((indicator, index) => {
             const IconComponent = indicator.icon;
             return (
               <div 
                 key={index}
-                className="group bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-6 text-center shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in"
+                className="group bg-white/80 backdrop-blur-md border border-red-200/50 rounded-2xl p-4 sm:p-6 text-center shadow-md hover:shadow-lg hover:-translate-y-1 hover:bg-white/90 transition-all duration-500 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className={`w-12 h-12 bg-gradient-to-br ${indicator.color} rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   <IconComponent className="w-6 h-6 text-white" />
                 </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">{indicator.value}</div>
-                <div className="text-gray-700 font-medium mb-1">{indicator.label}</div>
-                <div className="text-sm text-gray-500">{indicator.sublabel}</div>
+                <div className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">{indicator.value}</div>
+                <div className="text-sm sm:text-base text-gray-700 font-medium mb-1">{indicator.label}</div>
+                <div className="text-xs sm:text-sm text-gray-500">{indicator.sublabel}</div>
               </div>
             );
           })}
@@ -162,17 +162,17 @@ const TrustSection = () => {
             Vertrauen Sie auf unsere geprüfte Sicherheit und höchste Qualitätsstandards
           </p>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {securityBadges.map((badge, index) => (
               <div 
                 key={index}
-                className="group p-4 rounded-2xl border border-red-200/50 bg-white/80 backdrop-blur-sm shadow-sm hover:bg-white/90 hover:shadow-md transition-all duration-300 animate-fade-in"
+                className="group p-3 sm:p-4 rounded-2xl border border-red-200/50 bg-white/80 backdrop-blur-sm shadow-sm hover:bg-white/90 hover:shadow-md transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${0.8 + index * 0.1}s` }}
               >
-                <div className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors duration-300">
+                <div className="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors duration-300">
                   {badge.name}
                 </div>
-                <div className="text-sm text-gray-600">
+                <div className="text-xs sm:text-sm text-gray-600">
                   {badge.description}
                 </div>
               </div>
