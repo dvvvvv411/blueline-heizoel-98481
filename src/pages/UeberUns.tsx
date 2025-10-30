@@ -69,7 +69,7 @@ const UeberUns = () => {
             </div>
             
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-blue-600/10 rounded-3xl transform rotate-2"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-red-600/10 rounded-3xl transform rotate-2"></div>
               <div className="relative bg-white border border-gray-200 rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -120,8 +120,8 @@ const UeberUns = () => {
             <div className="group">
               <div className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 h-full">
                 <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
-                    <Users className="w-8 h-8 text-blue-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-rose-100 rounded-2xl flex items-center justify-center mx-auto">
+                    <Users className="w-8 h-8 text-red-600" />
                   </div>
                 </div>
                 <div className="text-center">
@@ -196,30 +196,30 @@ const UeberUns = () => {
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
-              <div className="relative bg-white border border-blue-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-rose-50 rounded-3xl transform rotate-1 group-hover:rotate-2 transition-transform duration-300"></div>
+              <div className="relative bg-white border border-red-200/50 rounded-3xl p-10 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mr-6">
-                    <Wrench className="w-8 h-8 text-blue-600" />
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-rose-100 rounded-2xl flex items-center justify-center mr-6">
+                    <Wrench className="w-8 h-8 text-red-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Technischer Service</h3>
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-blue-50/50 hover:bg-blue-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Tankreinigung und -wartung durch Fachbetriebe</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-blue-50/50 hover:bg-blue-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Heizungsservice und -wartung in Kooperation</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-blue-50/50 hover:bg-blue-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Tankprüfung und Dichtheitsprüfung</p>
                   </div>
-                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-blue-50/50 hover:bg-blue-50 transition-colors duration-200">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-red-50/50 hover:bg-red-50 transition-colors duration-200">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-700 font-medium">Beratung zur optimalen Tankgröße</p>
                   </div>
                 </div>

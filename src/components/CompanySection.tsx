@@ -13,7 +13,7 @@ const CompanySection = () => {
       icon: Shield,
       title: "100% Sicherheit",
       description: "Geprüfte Lieferungen",
-      color: "from-blue-500 to-indigo-600"
+      color: "from-red-500 to-rose-600"
     },
     {
       icon: CheckCircle,
@@ -40,7 +40,7 @@ const CompanySection = () => {
           Deutschland
         </>
       ),
-      color: "from-blue-500 to-indigo-600"
+      color: "from-red-500 to-rose-600"
     },
     {
       icon: Mail,

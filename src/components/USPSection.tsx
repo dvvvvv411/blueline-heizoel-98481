@@ -15,7 +15,7 @@ const USPSection = () => {
       title: "Kostenlose Lieferung ab 2.000L",
       description: "Deutschlandweite kostenfreie Premium-Anlieferung bei größeren Bestellungen. Zuverlässig und pünktlich zu Ihrem Wunschtermin.",
       highlight: "Deutschlandweit",
-      accent: "from-blue-500 to-indigo-600"
+      accent: "from-red-500 to-rose-600"
     },
     {
       icon: Shield,
@@ -28,7 +28,7 @@ const USPSection = () => {
 
   const stats = [
     { icon: TrendingDown, value: "100.000+", label: "Zufriedene Kunden", color: "text-emerald-600" },
-    { icon: MapPin, value: "50M+", label: "Liter geliefert", color: "text-blue-600" },
+    { icon: MapPin, value: "50M+", label: "Liter geliefert", color: "text-red-600" },
     { icon: Award, value: "24/7", label: "Bestellung", color: "text-purple-600" },
     { icon: Shield, value: "99%", label: "Kundenzufriedenheit", color: "text-orange-600" }
   ];
