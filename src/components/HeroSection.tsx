@@ -103,7 +103,7 @@ const HeroSection = () => {
             </div>
 
             {/* Feature Panel */}
-            <div className="bg-white/70 backdrop-blur border border-gray-200 rounded-2xl p-6">
+            <div className="hidden lg:block bg-white/70 backdrop-blur border border-gray-200 rounded-2xl p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">Ihre Vorteile auf einen Blick</h3>
               <div className="grid md:grid-cols-3 gap-6 md:divide-x divide-gray-200">
                 <div className="flex flex-col items-center text-center space-y-2">
