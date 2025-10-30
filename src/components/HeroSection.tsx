@@ -4,8 +4,6 @@ import PriceCalculator from './PriceCalculator';
 import { Star, Truck } from 'lucide-react';
 
 const HeroSection = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
   // Handle hash-based navigation to price calculator
   useEffect(() => {
     if (window.location.hash === '#price-calculator') {
@@ -18,60 +16,55 @@ const HeroSection = () => {
     }
   }, []);
 
-  // Track mouse movement for interactive glow effects
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({
-        x: e.clientX,
-        y: e.clientY
-      });
-    };
-
-    window.addEventListener('mousemove', handleMouseMove);
-    
-    return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
-
   return (
     <section className="bg-gradient-to-br from-gray-50 to-white relative overflow-hidden pt-32 pb-16">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent"></div>
       
-      {/* Interactive Glow Effect 1 - Follows cursor */}
+      {/* Floating Glow Effect 1 - Top Left Area */}
       <div 
-        className="absolute w-[600px] h-[600px] rounded-full pointer-events-none transition-all duration-300 ease-out"
+        className="absolute top-[10%] left-[15%] w-[500px] h-[500px] rounded-full pointer-events-none animate-float-1"
         style={{
-          left: `${mousePosition.x}px`,
-          top: `${mousePosition.y}px`,
-          transform: 'translate(-50%, -50%)',
-          background: 'radial-gradient(circle, rgba(239,28,35,0.08) 0%, rgba(239,28,35,0.04) 30%, transparent 70%)',
-          filter: 'blur(40px)',
-        }}
-      ></div>
-
-      {/* Interactive Glow Effect 2 - Delayed follow */}
-      <div 
-        className="absolute w-[800px] h-[800px] rounded-full pointer-events-none transition-all duration-700 ease-out"
-        style={{
-          left: `${mousePosition.x}px`,
-          top: `${mousePosition.y}px`,
-          transform: 'translate(-50%, -50%)',
-          background: 'radial-gradient(circle, rgba(239,28,35,0.06) 0%, rgba(239,28,35,0.02) 40%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(239,28,35,0.12) 0%, rgba(239,28,35,0.06) 40%, transparent 70%)',
           filter: 'blur(60px)',
         }}
       ></div>
 
-      {/* Interactive Glow Effect 3 - Accent glow */}
+      {/* Floating Glow Effect 2 - Center Right Area */}
       <div 
-        className="absolute w-[400px] h-[400px] rounded-full pointer-events-none transition-all duration-500 ease-out"
+        className="absolute top-[40%] right-[10%] w-[600px] h-[600px] rounded-full pointer-events-none animate-float-2"
         style={{
-          left: `${mousePosition.x}px`,
-          top: `${mousePosition.y}px`,
-          transform: 'translate(-50%, -50%)',
-          background: 'radial-gradient(circle, rgba(255,150,100,0.05) 0%, transparent 60%)',
+          background: 'radial-gradient(circle, rgba(239,28,35,0.1) 0%, rgba(239,28,35,0.04) 35%, transparent 65%)',
+          filter: 'blur(70px)',
+        }}
+      ></div>
+
+      {/* Floating Glow Effect 3 - Bottom Center Area */}
+      <div 
+        className="absolute bottom-[15%] left-[50%] w-[700px] h-[700px] rounded-full pointer-events-none animate-float-3"
+        style={{
+          background: 'radial-gradient(circle, rgba(255,150,100,0.08) 0%, rgba(239,28,35,0.03) 45%, transparent 70%)',
+          filter: 'blur(80px)',
+        }}
+      ></div>
+
+      {/* Floating Glow Effect 4 - Top Right Corner */}
+      <div 
+        className="absolute top-[5%] right-[20%] w-[400px] h-[400px] rounded-full pointer-events-none animate-float-1"
+        style={{
+          background: 'radial-gradient(circle, rgba(255,100,80,0.09) 0%, transparent 60%)',
           filter: 'blur(50px)',
+          animationDelay: '3s'
+        }}
+      ></div>
+
+      {/* Floating Glow Effect 5 - Bottom Left */}
+      <div 
+        className="absolute bottom-[10%] left-[20%] w-[550px] h-[550px] rounded-full pointer-events-none animate-float-2"
+        style={{
+          background: 'radial-gradient(circle, rgba(239,28,35,0.07) 0%, rgba(255,150,100,0.04) 50%, transparent 70%)',
+          filter: 'blur(65px)',
+          animationDelay: '5s'
         }}
       ></div>
       

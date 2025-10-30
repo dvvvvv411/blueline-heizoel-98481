@@ -113,6 +113,52 @@ export default {
 						transform: 'scale(1)',
 						opacity: '1'
 					}
+				},
+				'float-1': {
+					'0%, 100%': {
+						transform: 'translate(0, 0) scale(1)',
+						opacity: '0.6'
+					},
+					'33%': {
+						transform: 'translate(100px, -80px) scale(1.1)',
+						opacity: '0.8'
+					},
+					'66%': {
+						transform: 'translate(-80px, 60px) scale(0.9)',
+						opacity: '0.5'
+					}
+				},
+				'float-2': {
+					'0%, 100%': {
+						transform: 'translate(0, 0) scale(1)',
+						opacity: '0.5'
+					},
+					'33%': {
+						transform: 'translate(-120px, 100px) scale(1.2)',
+						opacity: '0.7'
+					},
+					'66%': {
+						transform: 'translate(90px, -70px) scale(0.85)',
+						opacity: '0.4'
+					}
+				},
+				'float-3': {
+					'0%, 100%': {
+						transform: 'translate(0, 0) scale(1)',
+						opacity: '0.4'
+					},
+					'25%': {
+						transform: 'translate(60px, 80px) scale(1.15)',
+						opacity: '0.6'
+					},
+					'50%': {
+						transform: 'translate(-100px, -60px) scale(0.95)',
+						opacity: '0.5'
+					},
+					'75%': {
+						transform: 'translate(80px, -40px) scale(1.05)',
+						opacity: '0.45'
+					}
 				}
 			},
 			animation: {
@@ -120,7 +166,10 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'float': 'float 3s ease-in-out infinite',
-				'scale-in': 'scale-in 0.3s ease-out'
+				'scale-in': 'scale-in 0.3s ease-out',
+				'float-1': 'float-1 15s ease-in-out infinite',
+				'float-2': 'float-2 20s ease-in-out infinite',
+				'float-3': 'float-3 18s ease-in-out infinite'
 			},
 			backdropBlur: {
 				xs: '2px',
