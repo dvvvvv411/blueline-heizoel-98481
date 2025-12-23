@@ -19,7 +19,7 @@ const Lieferservice = () => {
         title="Deutschlandweite Heizöl-Lieferung | 4-7 Werktage | Kölner Kraftstoff"
         description="Zuverlässige Heizöl-Lieferung deutschlandweit in 4-7 Werktagen. TÜV-geprüfte Tankfahrzeuge, kostenlose Lieferung ab 2.000L. Jetzt bestellen!"
         keywords="Heizöl Lieferung Deutschland, Tankfahrzeuge, TÜV-geprüft, kostenlose Lieferung, Heizöl Transport"
-        canonicalUrl="https://koelnerkraftstoff.de/lieferservice"
+        canonicalUrl="https://koelnerkraftstoff-heizoel.de/lieferservice"
       />
       <Header />
       

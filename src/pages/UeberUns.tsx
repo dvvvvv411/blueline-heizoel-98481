@@ -13,7 +13,7 @@ const UeberUns = () => {
         title="Über uns & Service | Kölner Kraftstoff | Premium Heizöl-Händler"
         description="Kölner Kraftstoff – Ihr vertrauensvoller Partner für Heizöl. Innovatives Unternehmen aus Köln mit über 100.000 zufriedenen Kunden deutschlandweit."
         keywords="Kölner Kraftstoff, Köln, Heizöl Unternehmen, Premium Heizöl, Heizöl Köln"
-        canonicalUrl="https://koelnerkraftstoff.de/ueber-uns"
+        canonicalUrl="https://koelnerkraftstoff-heizoel.de/ueber-uns"
       />
       <Header />
       
@@ -292,7 +292,7 @@ const UeberUns = () => {
                   
                   <div className="p-4 bg-white/60 rounded-xl border border-white/40">
                     <p className="text-gray-700">
-                      <strong className="text-primary">E-Mail:</strong> info@koelnerkraftstoff.de<br/>
+                      <strong className="text-primary">E-Mail:</strong> info@koelnerkraftstoff-heizoel.de<br/>
                       <strong className="text-primary">Telefon:</strong> 0221 29291090
                     </p>
                   </div>

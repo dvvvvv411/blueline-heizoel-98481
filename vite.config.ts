@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     strictPort: true,
     hmr: {
       clientPort: 443,
-      host: 'koelnerkraftstoff.de',
+      host: 'koelnerkraftstoff-heizoel.de',
     },
   },
   plugins: [
