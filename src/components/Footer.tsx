@@ -58,10 +58,10 @@ const Footer = () => {
                     <Mail className="w-4 h-4 text-white" />
                   </div>
                   <a 
-                    href="mailto:info@koelner-kraftstoff.de" 
+                    href="mailto:info@koelnerkraftstoff.de" 
                     className="text-gray-200 text-sm hover:text-white transition-colors duration-300"
                   >
-                    info@koelner-kraftstoff.de
+                    info@koelnerkraftstoff.de
                   </a>
                 </div>
               </div>

@@ -10,7 +10,7 @@ export const companyInfo = {
   country: "DE",
   
   // Contact Information
-  email: "info@koelner-kraftstoff.de",
+  email: "info@koelnerkraftstoff.de",
   phoneDisplay: "0221 29291090",
   phoneIntl: "+49 221 29291090",
   phoneTel: "+4922129291090",
@@ -35,7 +35,7 @@ export const companyInfo = {
   },
   
   // Website
-  website: "https://koelner-kraftstoff.de",
+  website: "https://koelnerkraftstoff.de",
   
   // Full address string
   fullAddress: "Dieselstr. 10, 50996 Köln",

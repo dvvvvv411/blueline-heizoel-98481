@@ -30,7 +30,7 @@ const Datenschutz = () => {
                   <p><strong>Kölner Kraftstoff GmbH & Co. KG</strong></p>
                   <p>Dieselstr. 10</p>
                   <p>50996 Köln</p>
-                  <p>E-Mail: info@koelner-kraftstoff.de</p>
+                  <p>E-Mail: info@koelnerkraftstoff.de</p>
                 </div>
               </section>
 

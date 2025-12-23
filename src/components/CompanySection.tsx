@@ -47,10 +47,10 @@ const CompanySection = () => {
       title: "E-Mail Kontakt",
       content: (
         <a 
-          href="mailto:info@koelner-kraftstoff.de" 
+          href="mailto:info@koelnerkraftstoff.de" 
           className="text-primary hover:text-primary/80 transition-colors font-medium hover:underline"
         >
-          info@koelner-kraftstoff.de
+          info@koelnerkraftstoff.de
         </a>
       ),
       color: "from-emerald-500 to-green-600"
