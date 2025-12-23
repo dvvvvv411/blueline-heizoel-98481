@@ -19,7 +19,7 @@ const Index = () => {
         description="Premium Heizöl ab 70 Cent pro Liter mit kostenloser Lieferung ab 2.000L deutschlandweit. Jetzt Preis berechnen!"
         keywords="Heizöl günstig, Heizöl bestellen, Heizöl Lieferung Deutschland, günstige Heizölpreise, Heizöl online kaufen, Köln"
         structuredData={structuredData}
-        canonicalUrl="https://koelner-kraftstoff.de/"
+        canonicalUrl="https://koelnerkraftstoff.de/"
       />
       <Header />
       <HeroSection />

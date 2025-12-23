@@ -13,7 +13,7 @@ const HeizoelSorten = () => {
         title="Heizöl-Sorten | Standard & Premium Heizöl | Kölner Kraftstoff"
         description="Hochwertige Heizöl-Sorten: Standard Heizöl EL ab 70 Cent/L und Premium Heizöl Plus ab 73 Cent/L. Schwefelarm, DIN-Norm konform. Jetzt bestellen!"
         keywords="Heizöl Sorten, Standard Heizöl EL, Premium Heizöl Plus, schwefelarmes Heizöl, DIN 51603-1, Köln"
-        canonicalUrl="https://koelner-kraftstoff.de/heizoelsorten"
+        canonicalUrl="https://koelnerkraftstoff.de/heizoelsorten"
       />
       <Header />
       

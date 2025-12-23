@@ -9,7 +9,7 @@ const Impressum = () => {
         title="Impressum | Kölner Kraftstoff | Rechtliche Angaben"
         description="Impressum der Kölner Kraftstoff (Kölner Kraftstoff GmbH & Co. KG) - Alle rechtlichen Angaben, Kontaktdaten und Registereintrag. Amtsgericht Köln HRA 27679."
         keywords="Impressum, Kölner Kraftstoff, Köln, HRA 27679, rechtliche Angaben"
-        canonicalUrl="https://koelner-kraftstoff.de/impressum"
+        canonicalUrl="https://koelnerkraftstoff.de/impressum"
       />
       <Header />
       
@@ -33,7 +33,7 @@ const Impressum = () => {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Kontakt</h2>
                 <div className="space-y-2">
                   <p><strong>Telefon:</strong> 0221 29291090</p>
-                  <p><strong>E-Mail:</strong> info@koelner-kraftstoff.de</p>
+                  <p><strong>E-Mail:</strong> info@koelnerkraftstoff.de</p>
                 </div>
               </section>
 
