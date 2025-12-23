@@ -4,13 +4,13 @@ export const companyStructuredData = {
   "@type": "Organization",
   "name": "Kölner Kraftstoff",
   "alternateName": "Kölner Kraftstoff GmbH & Co. KG",
-  "url": "https://koelnerkraftstoff.de",
+  "url": "https://koelnerkraftstoff-heizoel.de",
   "logo": "/lovable-uploads/koelner-kraftstoff-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+49-221-29291090",
     "contactType": "customer service",
-    "email": "info@koelnerkraftstoff.de",
+    "email": "info@koelnerkraftstoff-heizoel.de",
     "availableLanguage": "German"
   },
   "address": {
@@ -45,8 +45,8 @@ export const localBusinessStructuredData = {
   "@type": "LocalBusiness",
   "name": "Kölner Kraftstoff",
   "image": "/lovable-uploads/koelner-kraftstoff-logo.png",
-  "@id": "https://koelnerkraftstoff.de",
-  "url": "https://koelnerkraftstoff.de",
+  "@id": "https://koelnerkraftstoff-heizoel.de",
+  "url": "https://koelnerkraftstoff-heizoel.de",
   "telephone": "+49-221-29291090",
   "address": {
     "@type": "PostalAddress",

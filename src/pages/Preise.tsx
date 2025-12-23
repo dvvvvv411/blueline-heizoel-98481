@@ -19,7 +19,7 @@ const Preise = () => {
         title="Heizöl Preise & Konditionen | Ab 70 Cent/L | Kölner Kraftstoff"
         description="Transparente Heizöl-Preise ohne versteckte Kosten. Standard Heizöl ab 70 Cent/L, Premium ab 73 Cent/L. Preisgarantie bis zur Lieferung!"
         keywords="Heizöl Preise, Heizöl Kosten, Preisgarantie, transparente Preise, Heizöl günstig kaufen, Köln"
-        canonicalUrl="https://koelnerkraftstoff.de/preise"
+        canonicalUrl="https://koelnerkraftstoff-heizoel.de/preise"
       />
       <Header />
       
